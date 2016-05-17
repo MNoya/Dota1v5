@@ -1,0 +1,10 @@
+<root>
+	<script>
+		GameUI.CustomUIConfig().team_colors = {}
+		GameUI.CustomUIConfig().team_colors[DOTATeam_t.DOTA_TEAM_GOODGUYS] = "#3455FF;"; // { 52, 85, 255 }     --      Blue
+        GameUI.CustomUIConfig().team_colors[DOTATeam_t.DOTA_TEAM_BADGUYS ] = "#ff3455;"; // { 255, 52, 85 }     --      Red
+	</script>
+	<Panel>
+		<CustomUIElement type="GameSetup" layoutfile="file://{resources}/layout/custom_game/team_select.xml" />
+	</Panel>
+</root>
